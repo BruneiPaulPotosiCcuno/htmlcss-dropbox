@@ -11,9 +11,18 @@
     type-text
    ========================================================================== */
 
-    a,button{
+    a,button,p,h1{
         font-family: sans-serif;
     }
+
+    h1{
+        font-size: 80px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
 
 
 /* ==========================================================================
@@ -48,7 +57,6 @@ header{
 }
 
 button{
-
     height: 30px;
     width: 65px;
     border: none;
@@ -65,8 +73,194 @@ button{
 
 }
 /* ==========================================================================
-    Body
+    body
    ========================================================================== */
-body{
-    background-color: aqua;
+
+/* ==========================================================================
+    Main
+   ========================================================================== */
+
+
+
+.container{
+    display: flex;
+    margin-bottom: 1px;
+    background-color: rgb(180, 208, 231);
 }
+.nav-hero{
+    background-color: rgb(180, 208, 231);
+    margin-top: 95px;
+    max-width: 1200px;
+    display: flex;
+    text-align: start;
+}
+
+.main-hero{
+    background-color: rgb(180, 208, 231);
+    height: 479px;
+    display: flex;
+}
+.aside-text-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(180, 208, 231);
+    height: 479px;
+    width: 390px;
+    padding-top: 37px;
+}
+
+.aside-text-hero > p{
+    font-size: 17px;
+}
+
+.buttom-aside{
+    height: 46px;
+    width:220px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 97, 255);
+
+}
+
+i{
+    font-size: 50px;
+}
+
+.hero{
+    background-color: rgb(180, 208, 231);
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.img-jumbo{
+    height: 100%;
+    margin-top: 76px;
+}
+
+
+
+/* ==========================================================================
+    cards
+   ========================================================================== */
+.plans{
+    max-width: 1200px;
+    width: 1000px;
+    height: 1090px;
+    background-color: white ;
+    margin: auto;
+    margin-top: 164px ;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.radios{
+    font-size: 15px;
+    font-family: sans-serif;
+    display: flex;
+    gap: 40px;
+    margin-top: 76px;
+
+}
+
+.cards{
+    margin-top: 56px;
+    
+}
+
+.header-card{
+    height: 39px;
+    width: 298px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width:1px 1px 0 1px;
+    border-color: #d0d0d3;
+    display: flex;
+}
+
+.card1{
+    background-color: #ffffff;
+    border-style: solid;
+    border-width:1px;
+    border-color: #d0d0d3;
+    height: 911px;
+    width: 298px;
+}
+
+
+.cards-heads{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-card{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.cards-heads i,p{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.header-card{
+    display: flex;
+    justify-content: center;
+}
+
+.type-plan h4{
+    font-size: 23px;
+    
+}
+
+.type-plan *{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 20px 25px 20px 25px;
+}
+
+.checks *{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.big-card{
+    margin-top: 50px;
+}
+.cards-heads-big{
+    height: 39px;
+    width: 1000px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width:1px 1px 0 1px;
+    border-color: #d0d0d3;
+    display: flex;
+    justify-content: center;
+}
+
+.content-big-card{
+    background-color: #ffffff;
+    border-style: solid;
+    border-width:1px;
+    border-color: #d0d0d3;
+    height: 215px;
+    width: 1000px;
+    
+}
+
+.cards-heads-big i,p {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+/* ==========================================================================
+    
+   ========================================================================== */
